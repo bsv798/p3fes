@@ -1,4 +1,4 @@
-﻿#define JINN
+#define JINN
 
 using System;
 using System.Collections.Generic;

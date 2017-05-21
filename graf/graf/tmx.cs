@@ -1,4 +1,4 @@
-﻿#define NORMALIZE_ALPHA
+#define NORMALIZE_ALPHA
 
 using System;
 using System.Collections.Generic;
