@@ -12,8 +12,10 @@ namespace text
     {
         static void Main(string[] args)
         {
-            sio.FileInfo p = new System.IO.FileInfo(@"e:\Trance\p3fes\git\Persona_3_FES\en\font\table.tbl");
-            Table t = new Table(p);
+            sio.FileInfo tablePath = new System.IO.FileInfo(@"e:\Trance\p3fes\git\Persona_3_FES\en\font\table.tbl");
+            Table table = new Table(tablePath);
+            sio.FileInfo messageePath = new System.IO.FileInfo(@"e:\Trance\p3fes\res\data.cvm\EVENT\E100\0005.e105_001.msg");
+            text.Message message = new text.Message(messageePath, table);
         }
     }
 }

@@ -19,7 +19,7 @@ namespace text
 
         public Table(sio.FileInfo path)
         {
-            using (sio.StreamReader sr = new System.IO.StreamReader(path.FullName, ste.UTF8))
+            using (sio.StreamReader sr = new sio.StreamReader(path.FullName, ste.UTF8))
             {
                 string line = sr.ReadLine();
 

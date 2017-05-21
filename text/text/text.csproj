@@ -44,9 +44,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="command\CommandItem.cs" />
+    <Compile Include="command\Command_04_manual_close.cs" />
+    <Compile Include="command\Command_08_no_operation.cs" />
+    <Compile Include="command\Command_1f_person_avatar.cs" />
+    <Compile Include="command\Command_3f_reset_text_speed.cs" />
+    <Compile Include="command\Command_47_close_pause.cs" />
+    <Compile Include="command\Command_48_person_voice.cs" />
+    <Compile Include="text\HexItem.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Table.cs" />
+    <Compile Include="text\Message.cs" />
+    <Compile Include="text\StringTextPart.cs" />
+    <Compile Include="text\TextItem.cs" />
+    <Compile Include="text\TextPart.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
